@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="109957" started-at="2021-12-29T18:37:58 CST" finished-at="2021-12-29T18:39:48 CST">
+    <groups>
+    </groups>
+    <test name="Chrome_Result" duration-ms="35987" started-at="2021-12-29T18:37:58 CST" finished-at="2021-12-29T18:38:34 CST">
+      <class name="com.testscenario.Jritest">
+        <test-method status="PASS" signature="initliaze(java.lang.String)[pri:0, instance:com.testscenario.Jritest@1cd19b3]" name="initliaze" is-config="true" duration-ms="2662" started-at="2021-12-29T18:37:58 CST" finished-at="2021-12-29T18:38:00 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliaze -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.testscenario.Jritest@1cd19b3]" name="test" duration-ms="33295" started-at="2021-12-29T18:38:00 CST" finished-at="2021-12-29T18:38:34 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.testscenario.Jritest -->
+    </test> <!-- Chrome_Result -->
+    <test name="Firefox_Result" duration-ms="38198" started-at="2021-12-29T18:38:34 CST" finished-at="2021-12-29T18:39:12 CST">
+      <class name="com.testscenario.Jritest">
+        <test-method status="PASS" signature="initliaze(java.lang.String)[pri:0, instance:com.testscenario.Jritest@10f8e03]" name="initliaze" is-config="true" duration-ms="5164" started-at="2021-12-29T18:38:34 CST" finished-at="2021-12-29T18:38:39 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliaze -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.testscenario.Jritest@10f8e03]" name="test" duration-ms="33034" started-at="2021-12-29T18:38:39 CST" finished-at="2021-12-29T18:39:12 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.testscenario.Jritest -->
+    </test> <!-- Firefox_Result -->
+    <test name="Edge_Result" duration-ms="35741" started-at="2021-12-29T18:39:12 CST" finished-at="2021-12-29T18:39:48 CST">
+      <class name="com.testscenario.Jritest">
+        <test-method status="PASS" signature="initliaze(java.lang.String)[pri:0, instance:com.testscenario.Jritest@1baae6e]" name="initliaze" is-config="true" duration-ms="3147" started-at="2021-12-29T18:39:12 CST" finished-at="2021-12-29T18:39:15 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initliaze -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.testscenario.Jritest@1baae6e]" name="test" duration-ms="32593" started-at="2021-12-29T18:39:15 CST" finished-at="2021-12-29T18:39:48 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.testscenario.Jritest -->
+    </test> <!-- Edge_Result -->
+  </suite> <!-- Suite -->
+</testng-results>
