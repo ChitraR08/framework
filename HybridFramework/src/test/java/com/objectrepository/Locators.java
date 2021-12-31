@@ -13,5 +13,5 @@ public class Locators {
 	public final By Checkbox = By.xpath("//input[@id='checkbox']");
 	public final By SubmitButton = By.xpath("//input[@id='imgbtnSubmit']");
 	
-
+	
 }

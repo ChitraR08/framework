@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name = "Chrome_Result">
+ <!--  <test thread-count="5" name = "Chrome_Result">
   	<parameter name="browsername" value="chrome"></parameter>
     <classes>
       <class name="com.testscenario.Jritest"/>
     </classes>
-  </test> <!-- Test -->
+  </test> Test
   
   <test name="Firefox_Result">
   	<parameter name="browsername" value="firefox"></parameter>
@@ -21,4 +21,12 @@
   			<class name="com.testscenario.Jritest"></class>
   		</classes>
   </test>
-</suite> <!-- Suite -->
+ -->
+ <test thread-count="5" name = "Chrome_Result">
+  	<parameter name="browsername" value="chrome"></parameter>
+    <classes>
+      <class name="com.testscenario.BlazeDemo"/>
+    </classes>
+  </test> 
+  
+ </suite> <!-- Suite -->
