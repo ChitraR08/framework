@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="39569" started-at="2021-12-30T19:42:10 CST" finished-at="2021-12-30T19:42:50 CST">
+  <suite name="Suite" duration-ms="35269" started-at="2022-01-04T18:07:42 CST" finished-at="2022-01-04T18:08:18 CST">
     <groups>
     </groups>
-    <test name="Chrome_Result" duration-ms="39569" started-at="2021-12-30T19:42:10 CST" finished-at="2021-12-30T19:42:50 CST">
-      <class name="com.testscenario.BlazeDemo">
-        <test-method status="PASS" signature="initliaze(java.lang.String)[pri:0, instance:com.testscenario.BlazeDemo@1cd19b3]" name="initliaze" is-config="true" duration-ms="2511" started-at="2021-12-30T19:42:10 CST" finished-at="2021-12-30T19:42:13 CST">
+    <test name="Chrome_Result" duration-ms="35269" started-at="2022-01-04T18:07:42 CST" finished-at="2022-01-04T18:08:18 CST">
+      <class name="com.testscenario.StudentForm">
+        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:com.testscenario.StudentForm@16b4233]" name="start" is-config="true" duration-ms="2810" started-at="2022-01-04T18:07:43 CST" finished-at="2022-01-04T18:07:45 CST">
           <params>
             <param index="0">
               <value>
@@ -17,12 +17,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initliaze -->
-        <test-method status="PASS" signature="init()[pri:0, instance:com.testscenario.BlazeDemo@1cd19b3]" name="init" duration-ms="37011" started-at="2021-12-30T19:42:13 CST" finished-at="2021-12-30T19:42:50 CST">
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:com.testscenario.StudentForm@16b4233]" name="Test" duration-ms="31743" started-at="2022-01-04T18:07:45 CST" finished-at="2022-01-04T18:08:17 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-      </class> <!-- com.testscenario.BlazeDemo -->
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="Afterclass()[pri:0, instance:com.testscenario.StudentForm@16b4233]" name="Afterclass" is-config="true" duration-ms="672" started-at="2022-01-04T18:08:17 CST" finished-at="2022-01-04T18:08:18 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+      </class> <!-- com.testscenario.StudentForm -->
     </test> <!-- Chrome_Result -->
   </suite> <!-- Suite -->
 </testng-results>

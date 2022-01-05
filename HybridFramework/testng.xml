@@ -22,10 +22,17 @@
   		</classes>
   </test>
  -->
- <test thread-count="5" name = "Chrome_Result">
+ <!-- <test thread-count="5" name = "Chrome_Result">
   	<parameter name="browsername" value="chrome"></parameter>
     <classes>
       <class name="com.testscenario.BlazeDemo"/>
+    </classes>
+  </test> 
+ -->
+ <test thread-count="5" name = "Chrome_Result">
+  	<parameter name="browsername" value="chrome"></parameter>
+    <classes>
+      <class name="com.testscenario.StudentForm"/>
     </classes>
   </test> 
   
